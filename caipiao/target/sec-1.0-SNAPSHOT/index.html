@@ -1,0 +1,44 @@
+<!--
+ * @author run.jin
+ * @version 1.0
+ * @name d
+ * @description
+ * @date 2019/7/30
+ -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>彩票APP</title>
+    <link href="./static/ziyuan/favicon.ico" rel="shortcut icon">
+    <!--<link rel="icon" href="img/logo.ico" type="img/x-ico" />-->
+    <script src="./static/js/jquery-1.12.4.min.js">
+    </script>
+</head>
+<body>
+
+<div style="position: relative;">
+    <div style="position: absolute; right:100px; margin-top: 220px; ">
+        <a href="/caipiao/down">
+            <img id="img" src="./static/ziyuan/btn1.png" />
+        </a>
+    </div>
+
+    <img src="./static/ziyuan/b2.png" width="100%"/>
+</div>
+<div align="center">
+    <h1>彩票软件 推广 彩票软件 APP </h1>
+</div>
+<div>
+    <img src="./static/ziyuan/p1.png" width="100%"/>
+</div>
+
+
+<script type="text/javascript">
+    $(function(){
+        setInterval(function(){ $("#img").fadeOut(500).fadeIn(500); },200);
+    });
+
+</script>
+</body>
+</html>
